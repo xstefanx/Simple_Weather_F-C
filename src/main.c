@@ -153,6 +153,12 @@ static void inbox_received_callback(DictionaryIterator *iterator, void *context)
     else if (strcmp(conditions_buffer,"03n")==0) {
       weather_icon_bitmap = gbitmap_create_with_resource(RESOURCE_ID_03n);
     }
+    else if (strcmp(conditions_buffer,"04d")==0) {
+      weather_icon_bitmap = gbitmap_create_with_resource(RESOURCE_ID_03d);
+    }
+    else if (strcmp(conditions_buffer,"04n")==0) {
+      weather_icon_bitmap = gbitmap_create_with_resource(RESOURCE_ID_03n);
+    }
     else if (strcmp(conditions_buffer,"09d")==0) {
       weather_icon_bitmap = gbitmap_create_with_resource(RESOURCE_ID_09d);
     }
