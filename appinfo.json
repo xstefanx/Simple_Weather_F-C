@@ -1,0 +1,124 @@
+{
+    "appKeys": {
+        "KEY_CONDITIONS": 1,
+        "KEY_C_TEMPERATURE": 0,
+        "KEY_F_TEMPERATURE": 2
+    },
+    "capabilities": [
+        "location"
+    ],
+    "companyName": "larmos.spam@gmail.com",
+    "longName": "Simple Weather F/C",
+    "projectType": "native",
+    "resources": {
+        "media": [
+            {
+                "file": "data/_licence.txt",
+                "name": "licence",
+                "type": "raw"
+            },
+            {
+                "file": "images/50n.png",
+                "name": "50n",
+                "type": "png"
+            },
+            {
+                "file": "images/50d.png",
+                "name": "50d",
+                "type": "png"
+            },
+            {
+                "file": "images/13n.png",
+                "name": "13n",
+                "type": "png"
+            },
+            {
+                "file": "images/13d.png",
+                "name": "13d",
+                "type": "png"
+            },
+            {
+                "file": "images/11n.png",
+                "name": "11n",
+                "type": "png"
+            },
+            {
+                "file": "images/11d.png",
+                "name": "11d",
+                "type": "png"
+            },
+            {
+                "file": "images/10n.png",
+                "name": "10n",
+                "type": "png"
+            },
+            {
+                "file": "images/10d.png",
+                "name": "10d",
+                "type": "png"
+            },
+            {
+                "file": "images/09n.png",
+                "name": "09n",
+                "type": "png"
+            },
+            {
+                "file": "images/09d.png",
+                "name": "09d",
+                "type": "png"
+            },
+            {
+                "file": "images/03n.png",
+                "name": "03n",
+                "type": "png"
+            },
+            {
+                "file": "images/03d.png",
+                "name": "03d",
+                "type": "png"
+            },
+            {
+                "file": "images/02n.png",
+                "name": "02n",
+                "type": "png"
+            },
+            {
+                "file": "images/02d.png",
+                "name": "02d",
+                "type": "png"
+            },
+            {
+                "file": "images/01n.png",
+                "name": "01n",
+                "type": "png"
+            },
+            {
+                "file": "images/01d.png",
+                "name": "01d",
+                "type": "png"
+            },
+            {
+                "file": "fonts/mass_effect_font_by_troodon80-d4uq5t9.ttf",
+                "name": "MASS_EFFECT_24",
+                "type": "font"
+            },
+            {
+                "file": "fonts/mass_effect_font_by_troodon80-d4uq5t9.ttf",
+                "name": "MASS_EFFECT_22",
+                "type": "font"
+            },
+            {
+                "file": "fonts/mass_effect_font_by_troodon80-d4uq5t9.ttf",
+                "name": "MASS_EFFECT_30",
+                "type": "font"
+            }
+        ]
+    },
+    "shortName": "Simple Weather F/C",
+    "uuid": "407ce14d-dee7-4059-8563-c6986e395201",
+    "versionCode": 1,
+    "versionLabel": "1.0",
+    "watchapp": {
+        "watchface": true
+    }
+}
