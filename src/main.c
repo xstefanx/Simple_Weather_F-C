@@ -64,7 +64,7 @@ static void main_window_load(Window *window) {
   text_layer_set_text_alignment(bottom_text_layer, GTextAlignmentLeft); 
   weather_font = fonts_load_custom_font(resource_get_handle(RESOURCE_ID_MASS_EFFECT_22));
   text_layer_set_font(bottom_text_layer, weather_font);
-  text_layer_set_text(bottom_text_layer, "Loading...");
+  text_layer_set_text(bottom_text_layer, "...");
   
   weather_icon_layer = bitmap_layer_create(GRect(5, 101, 50, 50));
   bitmap_layer_set_bitmap(weather_icon_layer, weather_icon_bitmap);
@@ -154,10 +154,10 @@ static void inbox_received_callback(DictionaryIterator *iterator, void *context)
       weather_icon_bitmap = gbitmap_create_with_resource(RESOURCE_ID_03n);
     }
     else if (strcmp(conditions_buffer,"04d")==0) {
-      weather_icon_bitmap = gbitmap_create_with_resource(RESOURCE_ID_03d);
+      weather_icon_bitmap = gbitmap_create_with_resource(RESOURCE_ID_02d);
     }
     else if (strcmp(conditions_buffer,"04n")==0) {
-      weather_icon_bitmap = gbitmap_create_with_resource(RESOURCE_ID_03n);
+      weather_icon_bitmap = gbitmap_create_with_resource(RESOURCE_ID_02n);
     }
     else if (strcmp(conditions_buffer,"09d")==0) {
       weather_icon_bitmap = gbitmap_create_with_resource(RESOURCE_ID_09d);
