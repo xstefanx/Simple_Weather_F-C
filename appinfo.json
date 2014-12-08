@@ -99,17 +99,17 @@
             },
             {
                 "file": "fonts/mass_effect_font_by_troodon80-d4uq5t9.ttf",
-                "name": "MASS_EFFECT_24",
+                "name": "MASS_EFFECT_30",
+                "type": "font"
+            },
+            {
+                "file": "fonts/mass_effect_font_by_troodon80-d4uq5t9.ttf",
+                "name": "MASS_EFFECT_20",
                 "type": "font"
             },
             {
                 "file": "fonts/mass_effect_font_by_troodon80-d4uq5t9.ttf",
                 "name": "MASS_EFFECT_22",
-                "type": "font"
-            },
-            {
-                "file": "fonts/mass_effect_font_by_troodon80-d4uq5t9.ttf",
-                "name": "MASS_EFFECT_30",
                 "type": "font"
             }
         ]
@@ -117,7 +117,7 @@
     "shortName": "Simple Weather F/C",
     "uuid": "407ce14d-dee7-4059-8563-c6986e395201",
     "versionCode": 1,
-    "versionLabel": "1.0",
+    "versionLabel": "1.1",
     "watchapp": {
         "watchface": true
     }

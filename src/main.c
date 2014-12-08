@@ -46,7 +46,7 @@ static void main_window_load(Window *window) {
   text_layer_set_background_color(date_text_layer, GColorBlack);
   text_layer_set_text_color(date_text_layer, GColorWhite);
   text_layer_set_text_alignment(date_text_layer, GTextAlignmentCenter); 
-  date_font = fonts_load_custom_font(resource_get_handle(RESOURCE_ID_MASS_EFFECT_22));
+  date_font = fonts_load_custom_font(resource_get_handle(RESOURCE_ID_MASS_EFFECT_20));
   text_layer_set_font(date_text_layer, date_font);
   text_layer_set_text(date_text_layer, "01 JAN"); 
   
@@ -62,7 +62,7 @@ static void main_window_load(Window *window) {
   text_layer_set_background_color(bottom_text_layer, GColorClear);
   text_layer_set_text_color(bottom_text_layer, GColorBlack);
   text_layer_set_text_alignment(bottom_text_layer, GTextAlignmentLeft); 
-  weather_font = fonts_load_custom_font(resource_get_handle(RESOURCE_ID_MASS_EFFECT_24));
+  weather_font = fonts_load_custom_font(resource_get_handle(RESOURCE_ID_MASS_EFFECT_22));
   text_layer_set_font(bottom_text_layer, weather_font);
   text_layer_set_text(bottom_text_layer, "Loading...");
   
